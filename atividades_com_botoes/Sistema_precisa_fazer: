@@ -1,0 +1,9 @@
+
+Botao1:
+O sistema deve permitir ao usuário controlar o portão por meio de quatro botões físicos. O usuário pode abrir apenas o lado esquerdo se apertar o botão 1, no qual o led vermelho vai desligar, o led amarelo para indicar que há movimento e o led verde acender para sinalizar que o lado esquerdo está aberto, o servo motor irá voltar à posição inicial de ângulo 0 graus, fazendo um movimento de 90 graus.
+Botao2:
+ Pode abrir apenas o lado direito ao apertar o botão 2, onde o led vermelho direito vai desligar, o led amarelo e verde acenderam, um para indicar movimento e o outro para indicar quando estiver totalmente aberto, ao mesmo tempo o servo motor  irá voltar à posição inicial de ângulo 0 graus, fazendo um movimento de 90 graus.
+Botao3:
+Ao apertar o botão 3 os dois servos motores irão abrir os dois lados ao mesmo tempo realizando um movimento de 90 graus, ambos os leds vermelhos desligaram, o led amarelo ficará ligado apenas  durante a duração do movimento dos servos, os leds verdes e o led azul devem ficar legados ao fim da movimentação. 
+Botao4:
+Ao apertar o botão 4 os dois servos motores irão fechar os dois lados ao mesmo tempo deixando-os em uma posição de ângulo de 90 graus, os leds verdes e o led azul desligaram-se,o led amarelo ficará ligado somente pela duração do movimento dos servos,e por fim ambos os leds vermelhos devem ficar ligados no final, para demonstrar que ambas as portas estariam fechadas. 
