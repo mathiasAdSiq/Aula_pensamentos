@@ -1,1 +1,20 @@
 
+lista de passos:
+
+Como vai funcionar o sistema e como o mesmo foi programado.
+
+ Inicialmente os Leds vermelhos de ambos os lados estarão acesos, para sinalizar que os servos motores estão fechados.
+
+Primeiramente, ao iniciar o sistema, os dois servos são posicionados em 90 graus, representando o portão completamente fechado. Nesse estado inicial, os LEDs vermelhos de ambos os lados permanecem acesos, indicando que o portão está fechado.
+O programa entra então em um loop contínuo, onde realiza a leitura dos quatro botões.
+
+Quando o botao1 é pressionado, o sistema aciona apenas o servomotor do lado esquerdo, fazendo com que ele gire gradualmente 90 graus à posição 0 graus, representando a abertura desse lado do portão. Durante esse movimento, o LED amarelo é ligado, indicando que o portão está em movimento. Ao final da abertura, o LED vermelho esquerdo apaga e o LED verde e  esquerdo acende e o LED amarelo  continua ligado para representar somente metade do portão que foi aberto.
+
+Quando o botao2 é pressionado, ocorre o mesmo processo, porém no lado direito do portão. O servomotor direito gira 90 graus à posição 0 graus, o LED amarelo acende durante o movimento e, ao final, o LED verde direito permanece aceso, enquanto o vermelho direito apaga.
+
+Ao pressionar o botao3, ambos os lados do portão são acionados simultaneamente. Os dois servos se movimentam 90 graus à posição 0 graus, indicando abertura total. Durante esse processo, o LED amarelo permanece aceso somente até que quando os lados atingem a posição aberta, os LEDs azul e verde são acionados, indicando que o portão está completamente aberto.
+
+Quando o botao4 é pressionado, o sistema executa o fechamento completo do portão. Os dois servos retornam gradualmente à posição 90 graus. Durante o movimento, o LED amarelo permanece aceso somente durante a movimentação. Ao final do fechamento, os LEDs verdes se apagam e os LEDs vermelhos de ambos os lados acendem novamente.
+
+
+
