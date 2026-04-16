@@ -1,0 +1,46 @@
+
+Inicio
+
+              O que BOTÕES devem fazer:
+
+ler botao1
+ler botao2
+ler botao3
+ler botao4
+           
+se botão 1 pressionado:
+  mover servo esquerdo 90 graus para a posição aberto 
+
+se botão 2 pressionado:
+  mover servo direito 90 graus para a posição aberto
+
+se botão 3 pressionado:
+  mover ambos 90 graus para a posição aberto
+
+se botão 4 pressionado:
+  mover ambos 90 graus para a posição fechado
+  
+        O que LEDs devem fazer: 
+
+se algum servo está se movendo:
+  ligar LED amarelo
+
+se lado esquerdo aberto:
+  ligar LED verde esquerdo
+  desligar vermelho esquerdo
+senão:
+  ligar vermelho esquerdo
+
+se lado direito aberto:
+  ligar LED verde direito
+  desligar vermelho direito
+senão:
+  ligar vermelho direito
+
+se ambos lados abertos:
+  ligar LED azul
+
+se apenas um lado aberto:
+  manter LED amarelo ligado 
+
+Fim
